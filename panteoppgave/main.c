@@ -74,7 +74,7 @@ void Utskrift()
         y=y+flasketabell[j];
     for(k=2;k<=3;k++)
         z=z+(flasketabell[k]*2);
-    clear;
+    clear();
     printf("Antall flasker av type 1: %d gir kr %d\n",flasketabell[0], flasketabell[0]);
     printf("Antall flasker av type 2: %d gir kr %d\n",flasketabell[1], flasketabell[1]);
     printf("Antall flasker av type 3: %d gir kr %d\n",flasketabell[2], flasketabell[2]*2);
@@ -83,13 +83,6 @@ void Utskrift()
     printf("-------------------------------------------\n");
     printf("TOTALT %d flasker gir kr %d\n",x,z+y);
 }
-
-
-
-
-
-
-
 
 
 
